@@ -1,0 +1,173 @@
+<!doctype html>
+<!-- Based on impress.js Copyright 2011-2012 Bartek Szopka
+
+Released under the MIT and GPL (version 2 or later) Licenses.
+
+Note, this is a total mess of inconsistent css, html, javascript and content. 
+It's probably a good example of how difficult it is for me to separate content with presentation in practice.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title> </title>
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- basic setup -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/base.css" /> -->
+    <!-- menus and buttons -->
+    <link rel="stylesheet" type="text/css" href="css/navmenu.css" />
+
+    <!-- presentation-specific styling, which might be done with less instead of css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- <link rel="stylesheet/less" type="text/css" href="less/style.less"> -->
+
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    
+    <!-- each slide must be a div with class step,  must have some co-ordinates -->
+    <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Cendari: Leveraging Natural Language Processing for Research in
+Historical Archives</h1> 
+        <p><i class="fa fa-twitter fa-large"></i>@<a href="http://www.twitter.com/uberalex">uberalex</a></p>
+        <p><i class="fa fa-email fa-large"></i><a href="mailto:Alex.OConnor@scss.tcd.ie">Alex.OConnor@scss.tcd.ie</a></p>
+    </div>
+    <!-- Cendari Introduction -->
+    <div id="crossroads" class="step" data-x="1200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        
+        <div class="notes">
+            <!--speaker notes-->
+            <p>Cendari aims to be at the cross-roads between Archivists, Historians and Technologists. The focus is on resource discovery and use from less-resourced archives.</p>
+        </div>
+    </div>
+    <div id="useCases" class="step" data-x="1200" data-y="0" data-z="1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <div id="mediaeval">
+        </div>
+        <div id="ww1">
+        </div>
+        <div class="notes">
+            Broadly, the medieval research is more vertical, while the modern (WWI) research casts a very wide net. However, many of these differences at the surface translate into
+            similar need: the ability to find the right document, and the things connected to it.
+        </div>
+    </div>
+    <div id="infrastructure" class="step" data-x="1200" data-y="0" data-z="24-0" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        
+        <div class="notes">
+            <!--speaker notes-->
+            <p>There is a tremendous amount of support for what the project is trying to do, both in terms of content, knowledge but perhaps more importantly in terms of service-level infrastructure.</p>
+        </div>
+    </div>
+
+    <!-- User Trials and the End User's Needs -->
+    <div id="users" class="step" data-x="2400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Recognising what is <u>desirable</u>, what is <u>useful</u> and what is <u>practical</u>.</h1>
+        <div class="notes">
+            <p>The over-riding goal of Cendari is to work from what users need, and what needs users express. It's a big challenge to realise that different constituencies (historians, archivists, technologists) both within the project and outside of it have often-competing goals, and often poor awareness of both what is possible, and what is desirable.
+        </div>
+    </div>
+    <!-- Delving into the Archives -->
+    <div id="Archives" class="step" data-x="3600" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <div class="notes">
+        </div>
+    </div>
+
+    <!-- NLP for NER, Semantic Queries -->
+    <div id="NER" class="step" data-x="4800" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <div class="notes">
+        </div>
+    </div>
+
+    <!-- Services and Infrastructure, Unification -->
+    <div id="services" class="step" data-x="6000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <div class="notes">
+        </div>
+    </div>
+
+    <!-- The Overall Result: ARGs -->
+    <div id="ARG" class="step" data-x="7200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <div class="notes">
+        </div>
+    </div>
+
+    <!-- Conclusions -->
+    <div id="conclusions" class="step" data-x="8400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <div class="notes">
+        </div>
+    </div>
+
+    <!-- keep an overview slide, you may wish to change the scaling and / or the co-ordinates -->
+    <div id="overview" class="step" data-x="2400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+    </div>
+
+</div>
+<!-- end of impress -->
+
+<!-- a bar at the top with a timer. You could put other text or info in here by adding more spans -->
+<div id="navbar"><div id="timebar">&nbsp;</div><p> <span id="timer">Click to Start Timer.</span></p><p><input id="notebox" type="checkbox" /><label for="notebox">show notes</label></p></div>
+
+<!-- a little menu based on the slides -->
+<div class="hint note">
+    <p>Use the spacebar or arrow keys to navigate</p>
+</div>
+
+<!-- clicking on this reveals the quick-navigation bar -->
+<div id="menubutton" tabindex="1">
+    <i class="fa fa-bars fa-lg"></i>
+</div>
+
+<!-- quickly get to different slides here, the list is populated from the IDs of the slides -->
+<div id="navmenu">
+</div>
+
+
+
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").append('p').text('Tap on the left or right to navigate');
+}
+</script>
+
+<!-- LESS CSS -->
+<script src="lib/less.js/dist/less-1.7.5.js"></script>
+<!-- Load the presentation tool -->
+<script src="lib/impress.js/js/impress.js"></script>
+<!-- Load D3 -->
+<script src="lib/d3/d3.min.js"></script>
+<!-- Load the timer -->
+<script src="js/timer.js"></script>
+<!-- Menu -->
+<script src="js/navmenu.js"></script>
+<!-- -->
+<script src="js/diagram.js"></script>
+
+<!-- Initialisation -->
+<script>impress().init();</script>
+<script>var time = 1000 * 60 * 20;
+        var clock = timer(time, update);
+</script>
+</body>
+</html>
