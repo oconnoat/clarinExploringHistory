@@ -52,30 +52,31 @@ It's probably a good example of how difficult it is for me to separate content w
     <!-- each slide must be a div with class step,  must have some co-ordinates -->
     <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
         <h1>Cendari: Leveraging Natural Language Processing for Research in
-Historical Archives</h1> 
+Historical Archives</h1>
+        <img src="img/cendari.jpg" height=150 />
+        <h2>Alexander O'Connor, Natasa Bulatovic, Patrice Lopez, Nadia Boukhelifa</h2>
         <p><i class="fa fa-twitter fa-large"></i>@<a href="http://www.twitter.com/uberalex">uberalex</a></p>
         <p><i class="fa fa-email fa-large"></i><a href="mailto:Alex.OConnor@scss.tcd.ie">Alex.OConnor@scss.tcd.ie</a></p>
     </div>
     <!-- Cendari Introduction -->
     <div id="crossroads" class="step" data-x="1200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        
+        <a href="http://commons.wikimedia.org/wiki/File:CTA_Loop_Junction_Detail.jpg"><img src="img/junction.jpg" width=700></a> 
         <div class="notes">
             <!--speaker notes-->
             <p>Cendari aims to be at the cross-roads between Archivists, Historians and Technologists. The focus is on resource discovery and use from less-resourced archives.</p>
         </div>
     </div>
     <div id="useCases" class="step" data-x="1200" data-y="0" data-z="1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
-        <div id="mediaeval">
-        </div>
-        <div id="ww1">
-        </div>
+        <h1>Use Cases</h1>
+        <img src="img/blackadder1.jpg" />
+        <img src="img/blackadder4.jpg" />
         <div class="notes">
             Broadly, the medieval research is more vertical, while the modern (WWI) research casts a very wide net. However, many of these differences at the surface translate into
             similar need: the ability to find the right document, and the things connected to it.
         </div>
     </div>
-    <div id="infrastructure" class="step" data-x="1200" data-y="0" data-z="24-0" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
-        
+    <div id="infrastructure" class="step" data-x="1200" data-y="0" data-z="2400" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <p>To integrate digital archival resources for medieval and modern history, <b>leveraging extant networks</b> and projects to enhance the discoverability and usability of the resources.</p> 
         <div class="notes">
             <!--speaker notes-->
             <p>There is a tremendous amount of support for what the project is trying to do, both in terms of content, knowledge but perhaps more importantly in terms of service-level infrastructure.</p>
@@ -85,36 +86,87 @@ Historical Archives</h1>
     <!-- User Trials and the End User's Needs -->
     <div id="users" class="step" data-x="2400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
         <h1>Recognising what is <u>desirable</u>, what is <u>useful</u> and what is <u>practical</u>.</h1>
+        <img src="img/design.png" />
         <div class="notes">
             <p>The over-riding goal of Cendari is to work from what users need, and what needs users express. It's a big challenge to realise that different constituencies (historians, archivists, technologists) both within the project and outside of it have often-competing goals, and often poor awareness of both what is possible, and what is desirable.
         </div>
     </div>
     <!-- Delving into the Archives -->
     <div id="Archives" class="step" data-x="3600" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/archives.png" />
         <div class="notes">
+            From the workshop report: "The major difference was that archivists and information
+professionals have a very different relationship with the materials and with users, and they must
+work to mediate between the two."  
         </div>
     </div>
-
+    <div id="HiddenArchives" class="step" data-x="3600" data-y="0" data-z="-2400" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <p>The Not- and <strong>Never-Will-Be-</strong> Digitised</p>
+        <div class="notes">A key realisation was that the materials available digitally were a very small proportion of the overall materials available. Another interesting aspect was the desire to consider the archive or collection itself as a subject of research.</div>
+    </div> 
     <!-- NLP for NER, Semantic Queries -->
     <div id="NER" class="step" data-x="4800" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Multilingual Named Entity Recognition</h1>
+        <img src="img/bulgaria.png" height=500 />
         <div class="notes">
+            <p>The data in this case is digitised paper finding aids for the Bulgarian state archives. How do you locate fonds relevant to WW1 from these documents, without using extensive hand-built background knowledge?</p>
         </div>
     </div>
 
     <!-- Services and Infrastructure, Unification -->
     <div id="services" class="step" data-x="6000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/infrastructure.png" />
         <div class="notes">
+            Unify the complex questions of access control, entity versioning and manuscript access into a uniform API. Control identifiers for entities, users, fonds.
+        </div>
+    </div>
+    <div id="ingestion" class="step" data-x="6000" data-y="1200" data="1200" data-z="0">
+        <p>EAD, EAG, XML, PDF, TXT, TIFF, DOC</p>
+        <p>Paper records and finding aids</p>
+        <p>Language &amp; Culture</p>
+        <div class="notes">
+            A complex ingestion workflow is required to render the data uniformly accessible, while retaining integrity.
+        </div>
+    </div>
+<!-- The Overall Result: Note-taking  -->
+    <div id="Note-taking" class="step" data-x="7200" data-y="-1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/notetaking.jpg" />
+        <div class="notes">
+            Facilitate crowd-sourcing by sharing the concepts and entities, while keeping the actual work private.
         </div>
     </div>
 
     <!-- The Overall Result: ARGs -->
     <div id="ARG" class="step" data-x="7200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Archival Research Guide</h1>
+        <img src="img/ww1.png" height=500 />
+        <ul>
+            <li>Methodology</li>
+            <li>Theme</li>
+            <li>Content</li>
+            <li>Sources</li>
+            <li>People</li>
+        </ul>
         <div class="notes">
+            <a href="https://wiki.cendari.dariah.eu/wiki/Private_Memory_of_the_WW1">https://wiki.cendari.dariah.eu/wiki/Private_Memory_of_the_WW1</a> (Requires project access)
         </div>
     </div>
-
+    <div id="Knowledge" class="step" data-x="7200" data-y="2400" data-z="0">
+        <img src="img/LDMug.jpg" /><br />
+        <a href="http://labs.europeana.eu/blog/CENDARI-and-the-Europeana-API/">Cendari &amp; the Europeana API</a>
+        <div class="notes">
+        We abstract some of the complexity of data management away, so as to allow curation of knowledge from different specific tools. Personal data and annotations are stored in separate named graphs from group or global data. After an editorial process, data can migrate from the personal, to the general, and ultimately to background knowledge. Each version of the data is saved. 
+        </div>
+    </div>
     <!-- Conclusions -->
     <div id="conclusions" class="step" data-x="8400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <ol>
+            <li>Users need tools that fit their existing workflows</li>
+            <li>Cannot assume the availability of full text</li>
+            <li>Users are happy for <em>others</em> to contribute, but may not be so keen to share themselves</li>
+            <li>PDFs are everywhere</li>
+            <li>XML is a variable creature</li>
+        </ol>
         <div class="notes">
         </div>
     </div>

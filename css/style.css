@@ -30,7 +30,7 @@ div.step{
     min-width: 900px;
     min-height: 700px;
     font-size: 48px;
-    border: 1px solid red;
+    text-align: center;
 }
 
 /* Impress-related markup */
@@ -72,10 +72,104 @@ div.step{
 div#title h1{
     text-align: center;
     margin: 10px;
-    font-size: 256px;
+    font-size: 96px;
     font-family: 'Tangerine', sans-serif;
 }
+div#useCases img{
+    float: left;
+    margin: 4%;
+}
+div#infrastructure{
+    background-color: rgba(255,255,255,0.75);
+}
+div#infrastructure p{
+    margin-top: 30%;
+}
 
+.impress-on-infrastructure {
+    background-image: url("../img/desk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
+    background-width: 100%;
+
+}
+div#HiddenArchives{
+    background-color: rgba(0,0,0,0);
+}
+div#HiddenArchives p{
+    font-size: 36px;
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+}
+.impress-on-HiddenArchives {
+    background-image: url("../img/hidden.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
+    background-width: 100%;
+
+}
+div#ingestion {
+    background-color: rgba(0,0,0,0);
+}    
+div#ingestion p{
+    color: white;
+    background-color: rgba(64,64,64,1);
+    margin-bottom: 4%;
+}
+.impress-on-ingestion{
+    background-image: url("../img/burned.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
+    background-width: 100%;
+
+}
+
+
+div#ARG img{
+    float: left;
+}
+div#ARG ul{
+    text-align: right;
+}
+
+div#conclusions{
+    text-align: left;
+    padding: 5%; 
+}
+
+div#conclusions ol{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+.impress-on-conclusions{
+    background-image: url("../img/mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
+    background-width: 100%;
+
+}
+
+
+div#conclusions ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+div#conclusions li{
+    margin-bottom: 1%;
+}
 div#overview {
     display: none;
 }
