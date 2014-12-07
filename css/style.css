@@ -132,7 +132,26 @@ div#ingestion p{
     background-width: 100%;
 
 }
+div#NERD h1{
+    margin-bottom: 2%;
+}
+div#NERD h3{
+    clear: both;
+    text-align: center;
+    font-family: cursive;
+}
+div#NERD ol{
+    font-size: 24px; 
+    text-align: left;
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin-top: 5%
+}
 
+div#NERD img{
+    float:left;
+    margin-right: 2%;
+}
 
 div#ARG img{
     float: left;
